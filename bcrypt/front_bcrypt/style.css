@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+input{
+    width: 240px; 
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 5px;
+    
+} 
+
+input::placeholder{
+    color: black;
+    text-align: center;
+}
+button{
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+button, input {
+    border: 1px solid black;
+}
